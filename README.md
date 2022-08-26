@@ -17,4 +17,24 @@ insert first_name, last_name, city in body
 
 Task 3: Create an API to get single customer data by its id.
 
-API: http://localhost:3000/search/
+API: http://localhost:3000/route/getCustomer/{id of customer}
+
+
+![pagination 1](https://user-images.githubusercontent.com/22914243/186859894-71c2a3b8-c6de-4eb0-b1aa-a35b44688594.png)
+
+
+Task 4: Create List Api to display unique cities and number of customers in each city.
+
+Api: http://localhost:3000/route/uniqueCities
+
+![pagination 1](https://user-images.githubusercontent.com/22914243/186860429-d28bb7f7-4ec5-4588-b80a-35d52452a977.png)
+
+
+Task 5: Api to create unique Users.
+
+Api: http://localhost:3000/route/create
+
+pass first_name, last_name, city, company in body of the request
+
+![pagination 1](https://user-images.githubusercontent.com/22914243/186860852-dd12714a-3f7b-48b8-824e-6f22e5595ee7.png)
+
